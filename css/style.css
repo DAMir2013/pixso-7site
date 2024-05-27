@@ -1,0 +1,273 @@
+@font-face {
+    font-family: Tetra;
+    src: url("../fonts/tetra.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Cabinet;
+    src: url("../fonts/CabinetGrotesk-Variable.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    box-sizing: border-box;
+    max-width: 1366px;
+    font-family: "Work Sans", sans-serif;
+    color: #5C5C5C;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 20px;
+    margin-bottom: 79px;
+}
+
+.header-menu-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu-item-left {
+    font-weight: 400;
+    font-size: 24px;
+    color: #1C1C1C;
+}
+
+.header-menu-item-center ul {
+    display: flex;
+    gap: 58px;
+    font-weight: 600;
+    font-size: 14px;
+    list-style: none;
+}
+
+.header-menu-item-center a {
+    text-decoration: none;
+    color: #5C5C5C;
+}
+
+.header-menu-item-center a:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.header-menu-item-right {
+    display: flex;
+    gap: 33px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.button-left a {
+    color: #1C1C1C;
+}
+
+.button-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-right {
+    background-color: #1C1C1C;
+    color: white;
+    width: 100px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-right a {
+    color: white;
+    text-decoration: none;
+}
+
+/* servises */
+
+.servises {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.servises h2 {
+    font-family: Cabinet;
+    font-weight: 900;
+    font-size: 62px;
+    line-height: 77px;
+    text-transform: uppercase;
+    color: rgb(28, 28, 28);
+}
+
+.servises p {
+    line-height: 24px;
+    font-size: 17px;
+    padding-top: 6px;
+    margin-bottom: 36px;
+}
+
+
+
+.servises-inner-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.servises-item {
+    width: 358px;
+    border: 1px solid #1C1C1C;
+}
+
+.servises-item:hover {
+    background-color: #1C1C1C;
+    color: white;
+}
+
+
+.servises-item h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 38px;
+    margin-bottom: 11px;
+}
+
+.servises-item p {
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 312px;
+    margin: 0 auto 38px;
+}
+
+.img-grey {
+    margin-top: 56px;
+}
+
+.img-white {
+    display: none;
+    margin-top: 56px;
+}
+
+/* how-it-works */
+
+.how-it-works {
+    text-align: center;
+    margin-bottom: 178px;
+    /* position: relative; */
+}
+
+.how-it-works h2 {
+    font-family: Cabinet;
+    font-weight: 900;
+    font-size: 62px;
+    line-height: 77px;
+    text-transform: uppercase;
+    color: rgb(28, 28, 28);
+}
+
+.how-it-works-container>p {
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 142px;
+}
+
+.how-it-works-container {
+    max-width: 996px;
+    margin: 0 auto;
+
+}
+
+.how-it-works-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 144px;
+}
+
+.how-it-works-first-inner {
+    display: flex;
+    gap: 160px;
+}
+
+.how-it-works-item {
+    max-width: 412px;
+}
+
+.how-it-works-item h3 {
+    font-family: Cabinet;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: rgb(28, 28, 28);
+}
+
+.how-it-works-item p {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.how-it-works-second-inner {
+    display: flex;
+    gap: 160px;
+}
+
+.how-it-works-third-inner {
+    display: flex;
+    gap: 160px;
+}
+
+.line-1,
+.line-2 {
+    width: 996px;
+    height: 3px;
+    background-color: #E0E0E0;
+    position: absolute;
+}
+
+.line-1 {
+    top: 2140px;
+}
+
+.line-2 {
+    top: 2800px;
+}
+
+.line-vertical-1 {
+    width: 1366px;
+    height: 3px;
+    background-color: #E0E0E0;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 2154px;
+    right: 0;
+    left: 0;
+}
+
+.line-vertical-2 {
+    width: 1366px;
+    height: 3px;
+    background-color: #E0E0E0;
+    position: absolute;
+    transform: rotate(90deg);
+    top: 2750px;
+    right: 0;
+    left: 0;
+}
